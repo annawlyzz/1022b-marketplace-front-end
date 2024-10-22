@@ -28,7 +28,7 @@ function App() {
   },[]); 
 
   useEffect(()=>{
-    fetch("https://one022b-marketplace-b55e.onrender.com/usuarios")
+    fetch("https://one022b-marketplace-e699.onrender.com/usuarios")
     .then(resposta=>resposta.json())
     .then(dados=>setUsuarios(dados))
   },[])
